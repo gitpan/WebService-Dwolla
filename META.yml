@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               WebService-Dwolla
-version:            0.02
+version:            0.03
 abstract:           Perl extension to access the Dwolla REST API.
 author:
     - Chris Kloberdanz <klobyone@gmail.com>
@@ -17,6 +17,7 @@ requires:
     IO::File:        1.14
     JSON:            2.15
     LWP::UserAgent:  5.833
+    Test::More:      0
     URI::Escape:     3.29
 no_index:
     directory:
